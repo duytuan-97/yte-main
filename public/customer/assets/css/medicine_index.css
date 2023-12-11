@@ -1,0 +1,505 @@
+.duoc-sanpham {
+    background-color: #e6e6e6;
+    padding: 45px;
+    position: relative;
+}
+
+.duoc p {
+    padding-top: 15px;
+    margin-bottom: 0rem;
+    text-align: justify;
+}
+.duoc-text-align {
+    text-align: justify !important;
+}
+
+.duoc {
+    padding: 9% 5%;
+    position: absolute;
+    z-index: 2;
+}
+
+.duoc-footer {
+    background-color: #cd9b25;
+    height: 50px;
+}
+
+.duoc-text p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.duoc-text {
+    background-color: #cd9b25;
+    position: relative;
+    z-index: 2
+}
+
+.box-duoc {
+    padding: 70px 70px 55px 70px;
+    font-size: x-large;
+}
+
+.box-duoc-left {
+    background-color: #1F407D;
+    height: 32px;
+    width: 10%;
+}
+
+.box-duoc-right {
+    background-color: #1F407D;
+    height: 197px;
+    width: 2.3%;
+    top: calc(100% - 55px);
+    right: calc(70px - 2.3%);
+    position: absolute;
+    z-index: 1;
+}
+
+.row-duoc {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    position: relative
+}
+
+.row-duoc h2,p{
+    font-family: "UTM-Avo", sans-serif !important;
+}
+
+.duoc-img {
+    background-image: url("../img/LHR_Web_SubDuoc_BG-03.jpg");
+    min-height: 650px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1
+}
+
+.duoc-sp {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1399px) {
+    .card p {
+        font-weight: normal;
+    }
+
+    .box-duoc-right {
+        height: 180px;
+        width: 2%;
+        right: calc(70px - 2%);
+    }
+
+    .box-duoc {
+        padding: 60px 70px 55px 70px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .pr-3 .h1,
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .box-duoc {
+        font-size: 23px;
+    }
+
+    .box-duoc-left {
+        height: 30px;
+        width: 12.5%;
+    }
+
+    .box-duoc-right {
+        height: 180px;
+        width: 2.2%;
+        right: calc(70px - 2.2%);
+    }
+}
+
+/* .box-duoc {font-size: 20px;} */
+@media screen and (max-width: 991px) {
+
+    .duoc-footer {
+        height: 40px;
+    }
+
+    .danh-sach-san-pham-title .h1,
+    h1 {
+        font-size: calc(1rem + 1.5vw) !important;
+    }
+
+    .danh-sach-san-pham-title .h2,
+    h2 {
+        font-size: calc(1rem + 1.5vw);
+    }
+
+    .duoc-sanpham {
+        padding: 20px;
+    }
+
+    .duoc {
+        padding: 13% 5% 8% 5%;
+        position: absolute;
+        z-index: 2
+    }
+
+    .card-duoc {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .duoc-text p {
+        font-size: 0.99rem;
+    }
+
+    .box-duoc {
+        font-size: 1.4rem;
+        padding: 40px 40px 35px 40px;
+    }
+
+    .box-duoc-left {
+        height: 25px;
+        width: 15%;
+    }
+
+    .box-duoc-right {
+        height: 132px;
+        top: calc(100% - 40px);
+        right: calc(40px - 2.9%);
+        width: 2.29%;
+    }
+    .duoc-img{
+        min-height: 715px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .duoc-img {
+        background-image: url("../img/LHR_Web_SubDuoc_BG-04.jpg");
+        min-height: 650px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1
+    }
+
+    .danh-sach-san-pham-title .h1,
+    h1 {
+        padding: 0px 10px;
+        font-size: calc(.85rem + 1.5vw) !important;
+    }
+
+    .danh-sach-san-pham-title .h2,
+    h2 {
+        padding: 0px 10px;
+        font-size: calc(.85rem + 1.5vw);
+    }
+
+    .duoc-sanpham {
+        padding: 50px 20px 20px 20px;
+    }
+
+    .box-duoc {
+        font-size: 1.15rem;
+    }
+
+    .box-duoc-right {
+        height: 110px;
+        top: calc(100% - 40px);
+        right: calc(40px - 4%);
+        width: 3.29%;
+    }
+
+    @media screen and (max-width: 575px) {
+        .dich-vu-y-te{
+            width: 90%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-right: auto;
+        margin-left: auto;
+        }
+
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            padding: 0px 15px;
+            font-size: calc(1.1rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            padding: 0px 15px;
+            font-size: calc(1.1rem + 1.5vw);
+        }
+
+        .duoc-sanpham {
+            padding: 50px 20px 20px 20px;
+        }
+
+        .box-duoc {
+            font-size: 1.15rem;
+        }
+
+        .box-duoc-left {
+            width: 16%;
+        }
+
+        .box-duoc-right {
+            height: 110px;
+            top: calc(100% - 40px);
+            right: calc(40px - 4.9%);
+            width: 3.29%;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            padding: 0px 15px;
+            font-size: calc(1rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            padding: 0px 15px;
+            font-size: calc(1rem + 1.5vw);
+        }
+
+        .duoc-sanpham {
+            padding: 50px 20px 20px 20px;
+        }
+
+        .box-duoc {
+            font-size: 1.15rem;
+        }
+
+        .box-duoc-right {
+            height: 110px;
+            top: calc(100% - 40px);
+            right: calc(40px - 4.5%);
+            width: 3.29%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            padding: 0px 15px;
+            font-size: calc(.9rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            padding: 0px 15px;
+            font-size: calc(.9rem + 1.5vw);
+        }
+
+        /* .duoc-text p {font-size: 0.9rem;} */
+        .box-duoc {
+            font-size: 1.1rem;
+            padding: 40px 35px 25px 35px;
+        }
+
+        .duoc {
+            padding: 18% 5% 8% 5%;
+        }
+
+        .box-duoc-right {
+            height: 93px;
+            top: calc(100% - 25px);
+            right: calc(35px - 4.5%);
+        }
+    }
+
+    @media screen and (max-width: 450px) {
+        .duoc-sp {
+            margin-bottom: 5px;
+        }
+
+        .box-duoc {
+            font-size: 0.8rem;
+        }
+
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            font-size: calc(.775rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            font-size: calc(.775rem + 1.5vw);
+        }
+
+        .box-duoc-right {
+            height: 82px;
+        }
+
+        /* .duoc-text p {font-size: 0.8rem;} */
+        .box-duoc-left {
+            width: 18%;
+            height: 23px;
+        }
+
+        .duoc-footer {
+            height: 30px;
+        }
+
+        .duoc-img {
+            min-height: 515px;
+        }
+
+        .duoc-sanpham {
+            padding: 40px 20px 20px 20px;
+        }
+
+        .duoc p {
+            padding-top: 10px;
+        }
+        .duoc-text p {
+            font-size: 0.8rem;
+          }
+    }
+
+    @media screen and (max-width: 400p) {
+
+        .duoc {
+            padding: 23% 5% 8% 5%;
+        }
+
+        .danh-sach-san-pham-title h1,
+        h2 {
+            font-size: calc(.645rem + 1.5vw) !important;
+        }
+
+        /* .duoc-text p {font-size: 0.702rem;} */
+    }
+
+    @media screen and (max-width: 375px) {
+        .duoc-img {
+            min-height: 474px;
+          }
+        /* .duoc-img {
+            min-height: 70vh;
+        } */
+        .duoc-text p {
+            font-size: 0.7rem;
+          }
+        .box-duoc {
+            font-size: 0.7rem;
+        }
+        .duoc-sanpham {
+            padding: 30px 20px 20px 20px;
+          }
+    }
+
+    @media screen and (max-width: 350px) {
+        .duoc-img {
+            min-height: 450px;
+        }
+
+        .box-duoc {
+            font-size: 0.7rem;
+        }
+
+        .danh-sach-san-pham-title h1,
+        h2 {
+            font-size: calc(.582rem + 1.5vw) !important;
+        }
+
+        .box-duoc-left {
+            height: 20px;
+        }
+
+        .box-duoc-right {
+            height: 77px;
+        }
+
+        /* .duoc-text p {font-size: 0.633rem;} */
+    }
+
+    @media screen and (max-width: 325px) {
+        .duoc-text p {
+            font-size: 0.593rem;
+          }
+        .box-duoc {
+            font-size: 0.69rem;
+        }
+
+        .duoc-img {
+            min-height: 465px;
+        }
+
+        .duoc {
+            padding: 23% 5% 8% 5%;
+        }
+
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            font-size: calc(.514rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            font-size: calc(.514rem + 1.5vw);
+        }
+
+        /* .duoc-text p {font-size: 0.563rem;} */
+    }
+
+    @media screen and (max-width: 300px) {
+        .box-duoc-left {
+            height: 17px;
+            width: 20%;
+        }
+
+        .box-duoc-right {
+            height: 65px;
+            top: calc(100% - 20px);
+            right: calc(25px - 4.5%);
+        }
+
+        .box-duoc {
+            font-size: 0.63rem;
+            padding: 30px 25px 20px 25px;
+        }
+
+        .duoc-img {
+            min-height: 410px;
+        }
+
+        .duoc-sanpham {
+            padding: 30px 20px 20px 20px;
+        }
+
+        .duoc {
+            padding: 28% 5% 8% 5%;
+        }
+
+        .danh-sach-san-pham-title .h1,
+        h1 {
+            font-size: calc(.4473rem + 1.5vw) !important;
+        }
+
+        .danh-sach-san-pham-title .h2,
+        h2 {
+            font-size: calc(.4473rem + 1.5vw);
+        }
+
+        .duoc-text p {
+            font-size: 0.4953rem;
+        }
+
+        .duoc-footer {
+            height: 25px;
+        }
+    }
+}

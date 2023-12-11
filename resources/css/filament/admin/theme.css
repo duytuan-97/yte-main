@@ -1,0 +1,9 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+/* @import '<path-to-node-modules>/cropperjs/dist/cropper.css';
+@import '<path-to-vendor>/awcodes/filament-curator/resources/css/plugin.css'; */
+
+@import '../../../../vendor/awcodes/filament-tiptap-editor/resources/css/plugin.css';
+@import 'tippy.js/dist/tippy.css';
+
+@config './tailwind.config.js';
